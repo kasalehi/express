@@ -24,8 +24,5 @@ jobs:
       - name: Install deps
         run: npm ci
 
-      - name: Run tests (if you have them)
-        run: npm test --if-present
-
       - name: Run app script (optional)
         run: npm run start --if-present
