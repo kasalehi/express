@@ -23,6 +23,6 @@ app.post('/submit',(req, res)=>{
 })
 
 //listening to port 
-app.listen(port, ()=>{
+app.listen(process.env.PORT || 3000, ()=>{
     console.log(`app is listening to port ${port}...`)
 })
